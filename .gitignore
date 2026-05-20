@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# === Electronics & Simulation Clutter ===
+# LTspice temporary files and simulation data
+*.raw
+*.log
+*.op.net
+*.bak
+
+# Proteus backup files and compilation logs
+*.pdsbak
+*.LOG
+*.ERR
+*.TXT
+
+# EasyEDA / Fritzing autosaves (optional but helpful)
+*.bck
